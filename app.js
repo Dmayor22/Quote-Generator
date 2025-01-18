@@ -46,15 +46,15 @@ const allQuote = [
       "'Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.'",
     author: "Voltaire",
   },
-  // {
-  //   quote: "'Life is tough my darling, but so are you.'",
-  //   author: "Stephanie Bennett Henry",
-  // },
+  {
+    quote: "'Life is tough my darling, but so are you.'",
+    author: "Stephanie Bennett Henry",
+  },
 ];
 
-// button.addEventListener("click", () => {
-//   let random = Math.floor(Math.random() * allQuote.length);
+button.addEventListener("click", () => {
+  let random = Math.floor(Math.random() * allQuote.length);
 
-//   quote.innerText = allQuote[random].quote;
-//   author.innerText = "-" + allQuote[random].author;
-// });
+  quote.innerText = allQuote[random].quote;
+  author.innerText = "-" + allQuote[random].author;
+});

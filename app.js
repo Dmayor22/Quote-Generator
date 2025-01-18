@@ -52,9 +52,9 @@ const allQuote = [
   // },
 ];
 
-button.addEventListener("click", () => {
-  let random = Math.floor(Math.random() * allQuote.length);
+// button.addEventListener("click", () => {
+//   let random = Math.floor(Math.random() * allQuote.length);
 
-  quote.innerText = allQuote[random].quote;
-  author.innerText = "-" + allQuote[random].author;
-});
+//   quote.innerText = allQuote[random].quote;
+//   author.innerText = "-" + allQuote[random].author;
+// });

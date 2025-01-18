@@ -46,10 +46,10 @@ const allQuote = [
       "'Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.'",
     author: "Voltaire",
   },
-  {
-    quote: "'Life is tough my darling, but so are you.'",
-    author: "Stephanie Bennett Henry",
-  },
+  // {
+  //   quote: "'Life is tough my darling, but so are you.'",
+  //   author: "Stephanie Bennett Henry",
+  // },
 ];
 
 button.addEventListener("click", () => {

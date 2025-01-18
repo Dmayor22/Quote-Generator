@@ -58,3 +58,5 @@ button.addEventListener("click", () => {
   quote.innerText = allQuote[random].quote;
   author.innerText = "-" + allQuote[random].author;
 });
+
+console.log('she');
